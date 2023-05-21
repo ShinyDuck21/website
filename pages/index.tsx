@@ -11,6 +11,7 @@ export default function Home() {
   let scale = 125;
 
   const text = "ShinyDuck"
+  const text2 = "Developer and Gamer!!!";
   const snetence = {
     hidden: { opacity: 1 },
     visible: {
@@ -34,8 +35,14 @@ export default function Home() {
     brs.push(<br />)
   }
 
+  const brs2 = [];
+  for (let i = 0; i < 20; i++) {
+    brs2.push(<br />)
+  }
+
+
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Homepage - ShinyDuck</title>
       </Head>
@@ -43,6 +50,8 @@ export default function Home() {
         <Link className={styles.logo} href='/'>
           <Image src={"/pfp.png"} width={scale} height={scale} alt={'Logo'} />
         </Link>
+        <a href='/projects' className={styles.projectsLink} >Projects</a>
+        <a href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={styles.youtubeLink}>Youtube</a>
 
         <div className={styles['title-wrapper']}>
           <motion.h1 className={styles.title} variants={snetence} initial="hidden" animate="visible">
@@ -55,9 +64,13 @@ export default function Home() {
             })}
           </motion.h1>
         </div>
-        <h2 className={styles.subtitle}></h2>
+        {brs}
+        <h1 className={styles.otherText}>I am a developer and I play a lot of video games.
+          <br></br>My favorite game currently is Monster Hunter World.I am an american. My Latest thing I made (not including this website)
+          is Banos a bot I made for Discord. <a href='/projects/banos'>Check him out here</a>
+        </h1>
       </div >
-      {brs}
+      {brs2}
     </div >
   )
 }

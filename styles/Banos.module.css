@@ -1,0 +1,27 @@
+.title {
+    font-family: Courier;
+    text-align: center;
+    font-size: 465%;
+    color: rgb(0, 255, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.subtitle {
+    font-family: Courier;
+    text-align: center;
+    font-size: 235%;
+    color: rgb(0, 255, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

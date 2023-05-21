@@ -1,0 +1,27 @@
+.otherText {
+    font-family: Courier;
+    text-align: center;
+    font-size: 250%;
+    color: rgb(0, 255, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.list {
+    font-family: Courier;
+    text-align: center;
+    font-size: 250%;
+    color: rgb(0, 255, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

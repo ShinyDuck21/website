@@ -1,8 +1,3 @@
-.container {
-  display: flex;
-
-}
-
 .logo {
   padding-left: 1rem;
   padding-top: 1rem;
@@ -20,34 +15,45 @@
   overflow: hidden;
   white-space: nowrap;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
 
-.title {
-  display: inline-flex;
+.otherText {
+  position: relative;
+  font-family: Courier;
+  text-align: center;
+  align-items: center;
+  font-size: 250%;
+  color: rgb(0, 255, 0);
+  overflow: scroll;
+  /* white-space: nowrap; */
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
+.projectsLink {
+  font-family: Courier;
+  font-size: 250%;
+  color: rgb(0, 255, 0);
+  overflow: scroll;
+  white-space: nowrap;
+  position: absolute;
+  top: 8%;
+  left: 89%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
-@keyframes blink-caret {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: rgb(0, 255, 0);
-  }
+.youtubeLink {
+  font-family: Courier;
+  font-size: 250%;
+  color: rgb(0, 255, 0);
+  overflow: scroll;
+  white-space: nowrap;
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
