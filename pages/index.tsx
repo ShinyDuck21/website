@@ -50,8 +50,8 @@ export default function Home() {
         <Link className={styles.logo} href='/'>
           <Image src={"/pfp.png"} width={scale} height={scale} alt={'Logo'} />
         </Link>
-        <a href='/projects' className={styles.projectsLink} >Projects</a>
-        <a href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={styles.youtubeLink}>Youtube</a>
+        <Link href='/projects' className={styles.projectsLink} >Projects</Link>
+        <Link href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={styles.youtubeLink}>Youtube</Link>
 
         <div className={styles['title-wrapper']}>
           <motion.h1 className={styles.title} variants={snetence} initial="hidden" animate="visible">
@@ -67,7 +67,7 @@ export default function Home() {
         {brs}
         <h1 className={styles.otherText}>I am a developer and I play a lot of video games.
           <br></br>My favorite game currently is Monster Hunter World.I am an american. My Latest thing I made (not including this website)
-          is Banos a bot I made for Discord. <a href='/projects/banos'>Check him out here</a>
+          is Banos a bot I made for Discord. <Link href='/projects/banos'>Check him out here</Link>
         </h1>
       </div >
       {brs2}

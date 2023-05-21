@@ -16,8 +16,8 @@ export default function Home() {
             <Head>
                 <title>Projects - ShinyDuck</title>
             </Head>
-            <a href='/projects' className={mainStyles.projectsLink}>Projects</a>
-            <a href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={mainStyles.youtubeLink}>Youtube</a>
+            <Link href='/projects' className={mainStyles.projectsLink}>Projects</Link>
+            <Link href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={mainStyles.youtubeLink}>Youtube</Link>
 
 
             <div className="content">
@@ -29,8 +29,8 @@ export default function Home() {
             <h1 className={mainStyles.title}>Projects</h1>
             <h2 className={styles.otherText}>The list of projects starts here</h2>
             <ul className={styles.list}>
-                <li><a href='/projects/banos'>Banos (finished)</a></li>
-                <li><a>Game?</a></li>
+                <li><Link href='/projects/banos'>Banos (finished)</a></li>
+                {/* <li><Link>Game?</Link></li> */}
             </ul>
         </div>
     )
