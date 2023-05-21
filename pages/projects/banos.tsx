@@ -20,8 +20,8 @@ export default function Home() {
                 <Link className={mainStyles.logo} href='/'>
                     <Image src={"/pfp.png"} width={scale} height={scale} alt={'Logo'} />
                 </Link>
-                <a href='/projects' className={mainStyles.projectsLink} >Projects</a>
-                <a href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={mainStyles.youtubeLink}>Youtube</a>
+                <Link href='/projects' className={mainStyles.projectsLink} >Projects</Link>
+                <Link href='https://www.youtube.com/channel/UC3E5hRARdDFrySL5emTCaJw' className={mainStyles.youtubeLink}>Youtube</Link>
 
                 <h1 className={styles.title}>Banos</h1>
                 <h2 className={styles.subtitle}>Banos is a bot to ban people with Style.<br /><br />Banos will send an image of himself to those banned by him<br /><br /><a href='https://discord.com/api/oauth2/authorize?client_id=908473991906344960&permissions=8&scope=applications.commands%20bot'>Get Him HERE</a></h2>
