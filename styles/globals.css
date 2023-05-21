@@ -78,10 +78,10 @@ body {
 
 body {
   color: rbg(--foreground-rgb);
-  background-color: white;
-  /* background: linear-gradient(to bottom,
+  /* background-color: white; */
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 a {
