@@ -29,7 +29,7 @@ export default function Home() {
             <h1 className={mainStyles.title}>Projects</h1>
             <h2 className={styles.otherText}>The list of projects starts here</h2>
             <ul className={styles.list}>
-                <li><Link href='/projects/banos'>Banos (finished)</a></li>
+                <li><Link href='/projects/banos'>Banos (finished)</Link></li>
                 {/* <li><Link>Game?</Link></li> */}
             </ul>
         </div>
