@@ -2,8 +2,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
-    about: string,
-    link: string
+    about: string;
+    link: string;
 }
 
 export default function handler(
